@@ -1,8 +1,8 @@
 def run_corporate_esg_audit_engine():
- print("\n======================================================================")
+ 
  print("MFIN AUDITING LAB: SYSTEMATIC SUSTAINABILITY DATA RECONCILIATION")
  print("Audit Framework: Assurance Verification & Materiality Exception Testing")
- print("======================================================================\n")
+ 
 
 # 1. Audit Parameters & Thresholds
  materiality_threshold = 0.05
@@ -55,16 +55,15 @@ def run_corporate_esg_audit_engine():
  else:
   final_opinion = "UNQUALIFIED OPINION / COMPLETE DATA RECONCILIATION"
 
- print("\n=================== INDEPENDENT AUDIT ASSURANCE MEMO ===================")
+ print("INDEPENDENT AUDIT ASSURANCE MEMO")
  print(f" Global Audit Opinion: [{final_opinion}]")
  print(f" Total Corporate Deficiencies: {exceptions_identified} Exception Logs Generated")
  print(f" Total Reported Footprint: {total_reported:,.2f} Metric Tons CO2")
  print(f" Total Reconciled Footprint: {total_verified:,.2f} Metric Tons CO2")
  print(f" Consolidated Variance: {aggregate_variance_percentage * 100:.2f}%")
- print("========================================================================")
  print("Quantitative Auditing Insight: Discrepancies between management disclosures and")
  print("independent operational logs require substantive internal control adjustments")
  print("to mitigate systemic greenwashing reporting risks and regulatory audit exposure.")
- print("========================================================================\n")
+ 
 
 run_corporate_esg_audit_engine()
