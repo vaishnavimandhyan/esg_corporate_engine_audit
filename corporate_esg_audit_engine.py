@@ -1,6 +1,6 @@
 def run_corporate_esg_audit_engine():
  
- print("MFIN AUDITING LAB: SYSTEMATIC SUSTAINABILITY DATA RECONCILIATION")
+ print("SYSTEMATIC SUSTAINABILITY DATA RECONCILIATION")
  print("Audit Framework: Assurance Verification & Materiality Exception Testing")
  
 
